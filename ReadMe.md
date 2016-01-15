@@ -1,4 +1,4 @@
-# Self contained Spark application, written in Kotlin
+# Self contained Spark application example, written in Kotlin
 
 Based on [Spark Quick Start Guide](http://spark.apache.org/docs/latest/quick-start.html)
 
