@@ -7,7 +7,7 @@
  *
  */
 
-package me.esmit.examples.kotlin.spark;
+package me.esmit.examples.kotlin.spark
 
 import org.apache.spark.api.java.*
 import org.apache.spark.SparkConf
@@ -28,6 +28,8 @@ open class SimpleApp {
         val numBs = logData.filter { s -> s.contains("b") }.count()
 
         println("Lines with As: $numAs , lines with Bs: $numBs")
+
+        sc.stop()
     }
 }
 

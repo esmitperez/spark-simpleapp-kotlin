@@ -12,7 +12,7 @@ Execute in Spark, Kotlin maven coordinates must be passed so its classes can be 
 $SPARK_HOME/bin/spark-submit \
     --class me.esmit.examples.kotlin.spark.SimpleAppKt \
     --master local[4] \
-    --packages "org.jetbrains.kotlin:kotlin-stdlib:1.0.0-beta-4584" \
+    --packages "org.jetbrains.kotlin:kotlin-stdlib:1.0.0-beta-4589" \
     target/spark-simpleapp-kotlin-1.0-SNAPSHOT.jar
 ```
 
